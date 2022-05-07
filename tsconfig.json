@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "types": ["vite-plugin-svgr/client"],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    //"types": ["vite-plugin-svgr/client"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+, "src/components/forms/PopUp.js", "src/components/SecondaryIcon.jsx", "src/components/Getparams.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+ 
